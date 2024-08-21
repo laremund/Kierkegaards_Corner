@@ -1,38 +1,119 @@
+/* App.css includes all of the styling for this app, here it is seperated
+  into blocks by which component the styling is for  */
+
+/* App.js */
 .App {
-  text-align: center;
+  height: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 8%;
+}
+.main-subheader-section {}
+.main-subheader-container {}
+.main-subheader {}
+
+/* PageHeader */
+/* see .header in App.js */
+.header-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-menu-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title-container {
+  
 }
 
 .title {
   font-family: 'DM Serif Display', serif;
-  src: url(/public/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf) format(''truetype'');
+  /* src: './assets/fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf' format('' truetype''); */
   font-weight: 400;
   font-style: normal;
+  font-size: 50px;
 }
 
-.brain-icon {
-  fill: black;
+.menu-icon-container{}
+.menu-icon {
+  width: 40px;
+  height: 40px;
+}
+/* Styling for the divider is in an mui style override within the component */
+
+/* HomePageContent */
+.body-container{}
+.body-text-home-section{}
+.body-text-home-container{}
+.body-text-home{}
+.dual-choice-container{}
+.thinking-choice-section{}
+.thinking-choice-text-container{}
+.thinking-choice-text{}
+.brain-icon-container{}
+.brain-icon{}
+.living-choice-section{}
+.living-choice-text-container{}
+.living-choice-text{}
+
+/* WaysOfUnderstanding */
+/* see .body-container in HomePageContent */
+.theory-section{}
+.header-subheader-icon-theory{}
+.header-theory-container{}
+.header-theory{}
+.subheader-theory-container{}
+.subheader-theory{}
+.arrow-icon-container{}
+.arrow-icon-down{}
+.arrow-icon-up{}
+.theory-expanded-section{}
+.theory-divider{}
+.content-theory-expanded-section{}
+.text-theory-expanded-container{}
+.text-theory-expanded{}
+.image-theory-expanded-container{}
+.image-theory-expanded{}
+
+/* PageFooter */
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 5%;
+  padding: 15px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copyright-section {
+  display: flex;
+  justify-content: end;
+  height: 100%;
+}
+
+.copyright-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.copyright-first-line, .copyright-second-lines {
+  padding-top: 5px;
+  font-size: 10px;
+  text-align: right;
+  font-family: 'DM Sans', sans-serif;
 }

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import {ReactComponent as BrainIcon} from './icons/brain-icon.svg';
+import {ReactComponent as BrainIcon} from './assets/icons/brain-icon.svg';
 
 function HomePageContent (header, subheader, description, image) {
 
@@ -8,7 +8,7 @@ function HomePageContent (header, subheader, description, image) {
     const [whichPage, setWhichPage] = useState('Home');
 
     return (
-        <div className='body-theory-container'>
+        <div className='body-container'>
             <div className='body-text-home-section'>
                 <div className='body-text-home-container'>
                     <p1 className='body-text-home'>

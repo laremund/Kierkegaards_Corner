@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <header>
+      <header className='header'>
         <PageHeader/>
       </header>
       <body>
@@ -43,7 +43,7 @@ function App() {
         }
 
       </body>
-      <footer>
+      <footer className='footer'>
         <PageFooter/>
       </footer>
     </div>
