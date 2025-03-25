@@ -1,2 +1,2 @@
 # Kierkegaards_Corner
-A project to show my web development abilities, particularly with React.
+A project to show my web development abilities, particularly with React and Vite.
