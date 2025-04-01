@@ -1,12 +1,8 @@
 import { useState } from 'react';
 import './App.css';
-import PageHeader from './pageHeader';
-import HomePageContent from './homePageContent';
-import WaysOfUnderstanding from './waysOfUnderstanding';
-import PageFooter from './pageFooter';
+import { HomePageContent, PageFooter, PageHeader, WaysOfUnderstanding } from './components';
 
 function App() {
-
   // Page navigation state
   const [whichPage, setWhichPage] = useState('Home');
   // Subheader state
@@ -24,11 +20,12 @@ function App() {
   }
 
   return (
+  <>
     <div className="App">
       <header className='header'>
         <PageHeader/>
       </header>
-      <body>
+      <div>
         <div className='main-subheader-section'>
           <div className='main-subheader-container'>
             <h2 className='main-subheader'>
@@ -42,12 +39,13 @@ function App() {
           <HomePageContent/>
         }
 
-      </body>
+      </div>
       <footer className='footer'>
         <PageFooter/>
       </footer>
     </div>
-  );
+  </>
+  )
 }
 
-export default App;
+export default App

@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import './App.css';
-import {ReactComponent as ArrowIconDown} from './assets/icons/arrow-icon-down.svg';
-import {ReactComponent as ArrowIconUp} from './assets/icons/arrow-icon-up.svg';
+import '../App.css';
+import { arrowIconDown, arrowIconUp } from '../assets/icons';
 
 function WaysOfUnderstanding (header, subheader, description, image) {
 
@@ -23,7 +22,7 @@ function WaysOfUnderstanding (header, subheader, description, image) {
                         <h2 className='subhheader-theory'>${subheader}</h2>
                     </div>
                     <div className='arrow-icon-container'>
-                        <ArrowIconDown className='arrow-icon-down'/>
+                        (${arrowIconDown})
                     </div>
                 </div>
     {/* Expanded Section */}

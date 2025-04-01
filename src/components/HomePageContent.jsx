@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './App.css';
-import {ReactComponent as BrainIcon} from './assets/icons/brain-icon.svg';
+import '../App.css';
+import { brainIcon } from '../assets/icons';
 
 function HomePageContent (header, subheader, description, image) {
 
@@ -11,13 +11,13 @@ function HomePageContent (header, subheader, description, image) {
         <div className='body-container'>
             <div className='body-text-home-section'>
                 <div className='body-text-home-container'>
-                    <p1 className='body-text-home'>
+                    <p className='body-text-home'>
                     Welcome to Kierkegaard’s Corner! We explore major philosophies 
                     from history, highlighting the ones we find most fascinating. 
                     Choose between two categories: Ways of Thinking and Ways of Living. 
                     Some Ways of Living operate on the premise of a Way of Thinking, 
                     while others are their own thing—we know, not complicated at all.
-                    </p1>
+                    </p>
                 </div>
             </div>
             {/* Ways of Thinking & Ways of Living links */}
@@ -30,7 +30,7 @@ function HomePageContent (header, subheader, description, image) {
                     </div>
                 </div>
                 <div className='brain-icon-container'>
-                    <BrainIcon className='brain-icon'/>
+                    {/* (${brainIcon}) */}
                 </div>
                 <div className='living-choice-section'>
                     <div className='living-choice-text-container'>

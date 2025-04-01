@@ -1,6 +1,6 @@
-import './App.css';
+import '../App.css';
 import Divider from '@mui/material/Divider';
-import {ReactComponent as MenuIcon} from './assets/icons/menu-icon.svg';
+import { menuIcon } from '../assets/icons';
 
 function PageHeader() {
     return (
@@ -10,7 +10,7 @@ function PageHeader() {
                     <h1 className='title'>Kierkegaard's Corner</h1>
                 </div>
                 <div className='menu-icon-container'>
-                    <MenuIcon className='menu-icon'/>
+                    {/* (${menuIcon}) */}
                 </div>
             </div>
             <Divider sx={{ bgcolor:'#000000'}}/>
