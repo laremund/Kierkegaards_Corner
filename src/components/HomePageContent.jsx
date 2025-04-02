@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../App.css';
-import { brainIcon } from '../assets/icons';
+import { IconContext } from "react-icons";
+import { LiaBrainSolid } from "react-icons/lia";
 
 function HomePageContent (header, subheader, description, image) {
 
@@ -30,7 +31,9 @@ function HomePageContent (header, subheader, description, image) {
                     </div>
                 </div>
                 <div className='brain-icon-container'>
-                    {/* (${brainIcon}) */}
+                    <IconContext.Provider value={{className:"react-icons"}}>
+                        <LiaBrainSolid/>
+                    </IconContext.Provider>
                 </div>
                 <div className='living-choice-section'>
                     <div className='living-choice-text-container'>

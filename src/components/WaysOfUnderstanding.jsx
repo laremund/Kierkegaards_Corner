@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../App.css';
-import { arrowIconDown, arrowIconUp } from '../assets/icons';
+import { IconContext } from "react-icons";
+import { IoIosArrowDown } from "react-icons/io";
 
 function WaysOfUnderstanding (header, subheader, description, image) {
 
@@ -22,7 +23,9 @@ function WaysOfUnderstanding (header, subheader, description, image) {
                         <h2 className='subhheader-theory'>${subheader}</h2>
                     </div>
                     <div className='arrow-icon-container'>
-                        (${arrowIconDown})
+                        <IconContext.Provider value={{className:"react-icons"}}>
+                            <IoIosArrowDown />
+                        </IconContext.Provider>
                     </div>
                 </div>
     {/* Expanded Section */}

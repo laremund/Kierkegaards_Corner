@@ -1,6 +1,7 @@
 import '../App.css';
 import Divider from '@mui/material/Divider';
-import { menuIcon } from '../assets/icons';
+import { IconContext } from "react-icons";
+import { IoIosMenu } from "react-icons/io";
 
 function PageHeader() {
     return (
@@ -10,7 +11,9 @@ function PageHeader() {
                     <h1 className='title'>Kierkegaard's Corner</h1>
                 </div>
                 <div className='menu-icon-container'>
-                    {/* (${menuIcon}) */}
+                    <IconContext.Provider value={{className:"react-icons"}}>
+                        <IoIosMenu/>
+                    </IconContext.Provider>
                 </div>
             </div>
             <Divider sx={{ bgcolor:'#000000'}}/>
