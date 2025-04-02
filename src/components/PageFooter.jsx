@@ -1,5 +1,6 @@
 import '../App.css';
 import Divider from '@mui/material/Divider';
+
 function PageFooter() {
     return (
         <div className='footer-container'>
