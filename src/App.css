@@ -1,5 +1,11 @@
-/* App.css includes all of the styling for this app, here it is seperated
-  into blocks by which component the styling is for  */
+/* Variables */
+:root {
+  --primary-text: #000000;
+  --secondary-text: #3B3B3B;
+  --accent: #8f9779;
+  --background: #f5f5f5;
+  --background-secondary: #a7a7a7;
+}
 
 /* App.js */
 .App {
@@ -43,10 +49,11 @@
 }
 
 .menu-icon-container{}
-.menu-icon {
-  width: 40px;
-  height: 40px;
+
+.react-icons {
+  fill: #a7a7a7;
 }
+
 /* Styling for the divider is in an mui style override within the component */
 
 /* HomePageContent */
@@ -59,7 +66,9 @@
 .thinking-choice-text-container{}
 .thinking-choice-text{}
 .brain-icon-container{}
-.brain-icon {}
+
+
+
 .living-choice-section{}
 .living-choice-text-container{}
 .living-choice-text{}
