@@ -22,27 +22,9 @@ function App() {
   return (
   <>
     <div className="App">
-      <header className='header'>
-        <PageHeader/>
-      </header>
-      <div>
-        <div className='main-subheader-section'>
-          <div className='main-subheader-container'>
-            <h2 className='main-subheader'>
-              {subheaderSwitch(whichPage)}
-            </h2>
-          </div>
-        </div>
-
-        {/* Home page */}
-        {whichPage === 'Home' && 
-          <HomePageContent/>
-        }
-
-      </div>
-      <footer className='footer'>
-        <PageFooter/>
-      </footer>
+      <PageHeader/>
+      <HomePageContent/>
+      <PageFooter/>
     </div>
   </>
   )
