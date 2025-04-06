@@ -5,16 +5,14 @@ import { IoIosMenu } from "react-icons/io";
 
 function PageHeader() {
     return (
-        <div className='header-container'>
-            <div className='title-menu-container'>
-                <div className='title-container'>
-                    <h1 className='title'>Kierkegaard's Corner</h1>
-                </div>
-                <div className='menu-icon-container'>
-                    <IconContext.Provider value={{className:"react-icons"}}>
-                        <IoIosMenu/>
-                    </IconContext.Provider>
-                </div>
+        <div className='header-section'>
+            <div className='title-box'>
+                <h2>Kierkegaard's Corner</h2>
+            </div>
+            <div className='nav-box'>
+                <IconContext.Provider value={{className:"react-icons"}}>
+                    <IoIosMenu/>
+                </IconContext.Provider>
             </div>
             <Divider sx={{ bgcolor:'#000000'}}/>
         </div>
