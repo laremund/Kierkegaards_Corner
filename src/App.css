@@ -7,37 +7,23 @@
   --background-secondary: #a7a7a7;
 }
 
-/* App.js */
-.App {
-  height: 100%;
-}
-.header {
-  display: flex;
-  justify-content: center;
-  height: 8%;
-}
-.main-subheader-section {}
-.main-subheader-container {}
-.main-subheader {}
-
-/* PageHeader */
-/* see .header in App.js */
-.header-container {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.react-icons {
+  fill: #a7a7a7;
 }
 
-.title-menu-container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+body {
+
 }
 
-.title-container {
-  
+/* ------------------------------- PageHeader ------------------------------- */
+.header-section {
+
+}
+.title-box {
+
+}
+.nav-box {
+
 }
 
 .title {
@@ -48,81 +34,26 @@
   font-size: 50px;
 }
 
-.menu-icon-container{}
+/* ----------------------------- HomePageContent ---------------------------- */
+.heading-section {
 
-.react-icons {
-  fill: #a7a7a7;
 }
+.body-section {
 
-/* Styling for the divider is in an mui style override within the component */
-
-/* HomePageContent */
-.body-container{}
-.body-text-home-section{}
-.body-text-home-container{}
-.body-text-home{}
-.dual-choice-container{}
-.thinking-choice-section{}
-.thinking-choice-text-container{}
-.thinking-choice-text{}
-.brain-icon-container{}
-
-
-
-.living-choice-section{}
-.living-choice-text-container{}
-.living-choice-text{}
-
-/* WaysOfUnderstanding */
-/* see .body-container in HomePageContent */
-.theory-section{}
-.header-subheader-icon-theory{}
-.header-theory-container{}
-.header-theory{}
-.subheader-theory-container{}
-.subheader-theory{}
-.arrow-icon-container{}
-.arrow-icon-down{}
-.arrow-icon-up{}
-.theory-expanded-section{}
-.theory-divider{}
-.content-theory-expanded-section{}
-.text-theory-expanded-container{}
-.text-theory-expanded{}
-.image-theory-expanded-container{}
-.image-theory-expanded{}
-
-/* PageFooter */
-.footer {
-  display: flex;
-  justify-content: center;
-  height: 5%;
-  padding: 15px 0px;
 }
+.ways-of-box {
 
-.footer-container {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
+.big-icon-box {
 
-.copyright-section {
-  display: flex;
-  justify-content: end;
-  height: 100%;
 }
+/* -------------------------------------------------------------------------- */
 
-.copyright-container {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
+/* --------------------------- WaysOfUnderstanding -------------------------- */
 
-.copyright-first-line, .copyright-second-lines {
-  padding-top: 5px;
-  font-size: 10px;
-  text-align: right;
-  font-family: 'DM Sans', sans-serif;
-}
+/* -------------------------------------------------------------------------- */
+
+
+/* ------------------------------- PageFooter ------------------------------- */
+
+/* -------------------------------------------------------------------------- */

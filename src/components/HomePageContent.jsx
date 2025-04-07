@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import '../App.css';
 import { IconContext } from "react-icons";
 import { LiaBrainSolid } from "react-icons/lia";
 
-function HomePageContent (header, subheader, description, image) {
-
-    // Page navigation state
-    const [whichPage, setWhichPage] = useState('Home');
+function HomePageContent () {
 
     return (
         <div className='body-container'>
