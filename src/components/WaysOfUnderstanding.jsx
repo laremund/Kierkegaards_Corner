@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import '../App.css';
 import { IconContext } from "react-icons";
 import { IoIosArrowDown } from "react-icons/io";
 
 function WaysOfUnderstanding (header, subheader, description, image) {
-
-    // Accordion Logic
-    const [isExpanded, setIsExpanded] = useState(false);
 
     return (
         <div className='body-container'>
