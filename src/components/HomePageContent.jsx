@@ -1,6 +1,6 @@
 import '../App.css';
 import { IconContext } from "react-icons";
-import { LiaBrainSolid } from "react-icons/lia";
+import { LiaBrainSolid, LiaAngellist } from "react-icons/lia";
 
 function HomePageContent () {
 
@@ -14,21 +14,35 @@ function HomePageContent () {
             </div>
             <div className='body-section'>
                 <div className='ways-of-box'>
-                    <div className='big-icon-box'>
-                        <IconContext.Provider value={{className:"react-icons"}}>
-                        <LiaBrainSolid/>
-                        </IconContext.Provider>
+                    <div className='inner-ways-of-box'>
+                        <div className='big-icon-box'>
+                            <IconContext.Provider value={{className:"react-icons"}}>
+                            <LiaBrainSolid className='big-icon'/>
+                            </IconContext.Provider>
+                        </div>
+                        <div className='description-box'>
+                            <h3>Ways of Thinking</h3>
+                            <p>
+                                Philosophical frameworks and cognitive processes through which we interpret reality.
+                            </p>
+                        </div>
                     </div>
-                    <h4>Ways of Thinking</h4>
-                </div>
-                <div className='ways-of-box'>
-                    <div className='big-icon-box'>
-                        {/* <IconContext.Provider value={{className:"react-icons"}}>
-                        
-                        </IconContext.Provider> */}
+                    <div className='inner-ways-of-box'>
+                        <div className='big-icon-box'>
+                            <IconContext.Provider value={{className:"react-icons"}}>
+                            <LiaAngellist className='big-icon'/>
+                            </IconContext.Provider>
+                        </div>
+                        <div className='description-box'>
+                            <h3>Ways of Living</h3>
+                            <p>
+                                Ethical systems and lifestyles that guide action according to conceptions of a "good" life.
+                            </p>
+                        </div>
+
                     </div>
-                    <h4>Ways of Living</h4>
                 </div>
+
             </div>
         </div>
     )
