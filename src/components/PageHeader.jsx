@@ -14,7 +14,6 @@ function PageHeader() {
                     <IoIosMenu/>
                 </IconContext.Provider>
             </div>
-            <Divider sx={{ bgcolor:'#000000'}}/>
         </div>
     )
 }

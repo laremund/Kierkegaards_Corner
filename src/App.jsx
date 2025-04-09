@@ -7,7 +7,7 @@ function App() {
   <>
       <PageHeader/>
       <HomePageContent/>
-      <PageFooter/>
+      {/* <PageFooter/> */}
   </>
   )
 }
