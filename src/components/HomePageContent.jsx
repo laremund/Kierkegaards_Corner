@@ -1,6 +1,6 @@
 import '../App.css';
 import { IconContext } from "react-icons";
-import { LiaBrainSolid, LiaAngellist } from "react-icons/lia";
+import { LiaBrainSolid, LiaHandPeaceSolid } from "react-icons/lia";
 
 function HomePageContent () {
 
@@ -30,7 +30,7 @@ function HomePageContent () {
                     <div className='inner-ways-of-box'>
                         <div className='big-icon-box'>
                             <IconContext.Provider value={{className:"react-icons"}}>
-                            <LiaAngellist className='big-icon'/>
+                            <LiaHandPeaceSolid className='big-icon'/>
                             </IconContext.Provider>
                         </div>
                         <div className='description-box'>
