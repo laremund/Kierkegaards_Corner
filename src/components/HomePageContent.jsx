@@ -8,9 +8,11 @@ function HomePageContent () {
         <div className='body-container'>
             <div className='heading-section'>
                 <h1>Welcome to Kierkegaard's Corner</h1>
-                <p>We explore modern philosophies and showcase the ones we find most fascinating.
-                    <br/>Choose between two categories:
-                </p>
+                <div>
+                    <p>We explore modern philosophies and showcase the ones we find most fascinating.</p>
+                    <p>Choose between two categories:</p>
+                </div>
+
             </div>
             <div className='body-section'>
                 <div className='ways-of-box'>
