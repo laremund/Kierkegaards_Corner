@@ -41,10 +41,14 @@ function HomePageContent () {
                                 Ethical systems and lifestyles that guide action according to conceptions of a "good" life.
                             </p>
                         </div>
-
                     </div>
                 </div>
+            <div className='ways-of-thinking-section'>
+                
+            </div>
+            <div className='ways-of-living-section'>
 
+            </div>
             </div>
         </div>
     )
