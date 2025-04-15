@@ -90,10 +90,11 @@ body {
 .body-section {
 /*Display*/
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 /*Box Model*/
-  height: 40vh;
+  height: 80vh;
   background-color: #f5f6f0;
 }
 .ways-of-box {
