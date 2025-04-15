@@ -43,12 +43,12 @@ function HomePageContent () {
                         </div>
                     </div>
                 </div>
-            <div className='ways-of-thinking-section'>
-                
-            </div>
-            <div className='ways-of-living-section'>
-
-            </div>
+                <div className='ways-of-thinking-section'>
+                    <h1>Ways of Thinking</h1>
+                </div>
+                <div className='ways-of-living-section'>
+                    <h1>Ways of Living</h1>
+                </div>
             </div>
         </div>
     )
