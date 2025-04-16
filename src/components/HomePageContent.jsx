@@ -45,9 +45,36 @@ function HomePageContent () {
                 </div>
                 <div className='ways-of-thinking-section'>
                     <h1>Ways of Thinking</h1>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Nihilism</h1>
+                    </div>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Determinism</h1>
+                    </div>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Empiricism & Rationalism</h1>
+                    </div>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Relativism</h1>
+                    </div>                                        
                 </div>
                 <div className='ways-of-living-section'>
                     <h1>Ways of Living</h1>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Stoicism</h1>
+                    </div>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Absurdism</h1>
+                    </div>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Existentialism</h1>
+                    </div>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Objectivism</h1>
+                    </div>
+                    <div className='philosophy-section'>
+                        <h1 className='h1-article'>Utilitarianism & Hedonism</h1>
+                    </div>                                                                                                    
                 </div>
             </div>
         </div>
