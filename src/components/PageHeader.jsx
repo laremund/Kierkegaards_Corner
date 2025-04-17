@@ -1,20 +1,23 @@
 import '../App.css';
-import Divider from '@mui/material/Divider';
 import { IconContext } from "react-icons";
 import { IoIosMenu } from "react-icons/io";
 
 function PageHeader() {
     return (
-        <div className='header-section'>
-            <div className='title-box'>
-                <h2>Kierkegaard's Corner</h2>
+        <section class="header-section"> 
+            <h3>Old Dead Guys</h3> 
+            <div class="">
+                <a href="#" class=""> 
+                    <h5>Home</h5>
+                </a>
+                <a href="#" class=""> 
+                    <h5>Ways of Thinking</h5>
+                </a>
+                <a href="#" class=""> 
+                    <h5>Ways of Living</h5>
+                </a> 
             </div>
-            <div className='nav-box'>
-                <IconContext.Provider value={{className:"react-icons"}}>
-                    <IoIosMenu/>
-                </IconContext.Provider>
-            </div>
-        </div>
+        </section>
     )
 }
 
