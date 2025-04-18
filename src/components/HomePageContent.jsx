@@ -7,10 +7,19 @@ function HomePageContent () {
     return (
         <div className='body-container'>
             <div className='heading-section'>
-                <h1>Welcome to Kierkegaard's Corner</h1>
+                <h1>Old Dead Guys</h1>
+                <h3>&quot;Life can only be understood backwards; but it must be lived forwards&quot;</h3>
+                <h4>
+                    Welcome to Old Dead Guys! We explore major philosophies from history, highlighting
+                    the ones we find most fascinating. Choose between two categories:
+                </h4>
                 <div>
-                    <p>We explore modern philosophies and showcase the ones we find most fascinating.</p>
-                    <p>Choose between two categories:</p>
+                    <a href="" className=''>
+                        <h4>Ways of Thinking</h4>
+                    </a>
+                    <a href="" className=''>
+                        <h4>Ways of Living</h4>
+                    </a>
                 </div>
 
             </div>
