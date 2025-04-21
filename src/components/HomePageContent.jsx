@@ -21,70 +21,34 @@ function HomePageContent () {
                         <h4>Ways of Living</h4>
                     </a>
                 </div>
-
             </div>
             <div className='body-section'>
-                <div className='ways-of-box'>
-                    <div className='inner-ways-of-box'>
-                        <div className='big-icon-box'>
-                            <IconContext.Provider value={{className:"react-icons"}}>
-                            <LiaBrainSolid className='big-icon'/>
-                            </IconContext.Provider>
-                        </div>
-                        <div className='description-box'>
-                            <h3>Ways of Thinking</h3>
-                            <p>
-                                Philosophical frameworks and cognitive processes through which we interpret reality.
-                            </p>
-                        </div>
+                <div>
+                    <h3></h3>
+                    <p></p>
+                    <h5></h5>
+                    <div>
+                        <h5></h5>
+                        <h5></h5>
+                        <h5></h5>
+                        <h5></h5>
+                        <h5></h5>    
                     </div>
-                    <div className='inner-ways-of-box'>
-                        <div className='big-icon-box'>
-                            <IconContext.Provider value={{className:"react-icons"}}>
-                            <LiaHandPeaceSolid className='big-icon'/>
-                            </IconContext.Provider>
-                        </div>
-                        <div className='description-box'>
-                            <h3>Ways of Living</h3>
-                            <p>
-                                Ethical systems and lifestyles that guide action according to conceptions of a "good" life.
-                            </p>
-                        </div>
-                    </div>
+                    <div>
+                        <h5></h5>
+                        <div></div>
+                    </div>                    
                 </div>
-                <div className='ways-of-thinking-section'>
-                    <h1>Ways of Thinking</h1>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Nihilism</h1>
-                    </div>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Determinism</h1>
-                    </div>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Empiricism & Rationalism</h1>
-                    </div>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Relativism</h1>
-                    </div>                                        
-                </div>
-                <div className='ways-of-living-section'>
-                    <h1>Ways of Living</h1>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Stoicism</h1>
-                    </div>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Absurdism</h1>
-                    </div>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Existentialism</h1>
-                    </div>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Objectivism</h1>
-                    </div>
-                    <div className='philosophy-section'>
-                        <h1 className='h1-article'>Utilitarianism & Hedonism</h1>
-                    </div>                                                                                                    
-                </div>
+            </div>
+            <div className='subfooter-section'>
+                <h2></h2>
+                <h4></h4>
+                <a href="">
+                    <h4></h4>
+                </a>
+            </div>
+            <div className='footer-section'>
+                <p></p>
             </div>
         </div>
     )
