@@ -1,5 +1,5 @@
 import './App.css';
-import { HomePageContent, PageFooter, PageHeader, WaysOfUnderstanding } from './components';
+import { HomePageContent, PageFooter, PageHeader, WaysOfPageContent, WayOfSection } from './components';
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
   <>
       <PageHeader/>
       <HomePageContent/>
+      {/* <WaysOfPageContent/> */}
       {/* <PageFooter/> */}
   </>
   )
