@@ -2,7 +2,7 @@ import '../App.css';
 import { IconContext } from "react-icons";
 import { IoIosArrowDown } from "react-icons/io";
 
-function WaysOfUnderstanding (header, subheader, description, image) {
+function WayOfSection (header, subheader, description, image) {
 
     return (
         <div className='body-container'>
@@ -48,4 +48,4 @@ function WaysOfUnderstanding (header, subheader, description, image) {
 
 }
 
-export default WaysOfUnderstanding;
+export default WayOfSection;
